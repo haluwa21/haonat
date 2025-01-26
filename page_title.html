@@ -1,4 +1,5 @@
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 <style>
     @font-face {
       font-family: 'TAN Astoria';
@@ -19,7 +20,7 @@
       font-size: 12vw; /* Responsive font size based on viewport width */
       color: #ffffff;
       text-align: center;
-      margin: 0;
+      margin: 2vw;
       padding: 2vw; /* Adjust padding relative to viewport */
       background-color: transparent; /* Set to transparent */
       line-height: 1; /* Adjust line height */
@@ -37,7 +38,7 @@
     }
 
     .rsvp-button {
-      font-family: 'Cinzel', serif;
+      font-family: 'Lato', sans-serif; /* Change font to Lato Light */
       font-size: 3vw; /* Responsive font size based on viewport width */
       color: #ffffff;
       background-color: transparent;
@@ -55,7 +56,7 @@
 
     .rsvp-button:hover {
       background-color: #000000;
-      border: 3px solid #000000;
+      border: 2px solid #000000;
       color: #ffffff;
     }
 
@@ -84,10 +85,17 @@
         width: 50vw; /* Adjust button width for smaller screens */
       }
     }
-  </style>
+
+    /* Prevent scrolling */
+    html, body {
+      overflow: hidden;
+      height: 100%;
+      margin: 0;
+    }
+</style>
   
-  <div>
+<div>
     <h1 class="titulo-principal">HAO & NAT</h1>
     <h2 class="subtitulo">S'Agaró · 30 08 2025</h2>
     <a href="http://www.haonat.love" class="rsvp-button">Confirma tu asistencia</a>
-  </div>
+</div>

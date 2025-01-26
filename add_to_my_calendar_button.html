@@ -1,18 +1,13 @@
 <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 <style>
-    @font-face {
-      font-family: 'Cinzel';
-      src: url('https://haluwa21.github.io/haonat/Cinzel-VariableFont_wght.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-    }
-
     .calendar-button {
-      font-family: 'Cinzel', serif;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300; /* Lato Light */
       font-size: 3vw; /* Responsive font size based on viewport width */
       color: #000000;
       background-color: transparent; /* Set background to transparent */
-      border: 5px solid #000000;
+      border: 2px solid #000000;
       border-radius: 100px;
       padding: 1vw;
       text-align: center;
@@ -38,12 +33,16 @@
       .calendar-button {
         font-size: 3vw; /* Adjust font size for smaller screens */
         padding: 2vw; /* Adjust padding for smaller screens */
-        border: 4px solid #000000;
+        border: 2px solid #000000;
         width: 50vw; /* Adjust button width for smaller screens */
       }
     }
 </style>
 
 <div>
-    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Hao+%26+Nat+Wedding&dates=20250830T150000Z/20250831T010000Z&details=Join+us+for+our+wedding+celebration&location=https://maps.app.goo.gl/CssZrimZydPTjeE2A" class="calendar-button">Add to My Calendar</a>
+    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Hao+%26+Nat+Wedding&dates=20250830T150000Z/20250831T010000Z&details=Join+us+for+our+wedding+celebration&location=https://maps.app.goo.gl/CssZrimZydPTjeE2A" class="calendar-button">Añadir a Google Calendar</a>
 </div>
+
+        <script>
+            parent.document.getElementsByTagName("iframe")[0].scrolling = "no";
+        </script>
