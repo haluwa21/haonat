@@ -1,0 +1,49 @@
+<meta charset="UTF-8">
+<style>
+    @font-face {
+      font-family: 'Cinzel';
+      src: url('https://haluwa21.github.io/haonat/Cinzel-VariableFont_wght.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .calendar-button {
+      font-family: 'Cinzel', serif;
+      font-size: 3vw; /* Responsive font size based on viewport width */
+      color: #000000;
+      background-color: transparent; /* Set background to transparent */
+      border: 5px solid #000000;
+      border-radius: 100px;
+      padding: 1vw;
+      text-align: center;
+      display: block;
+      margin: 2vw auto;
+      margin-top: 5vw; /* Add vertical spacing above the button */
+      width: 50vw; /* Button width parameter using vw */
+      text-decoration: none;
+      transition: background-color 0.3s, color 0.3s, border-width 0.3s;
+    }
+
+    .calendar-button:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .calendar-button:active {
+      border-width: 4px;
+    }
+  
+    /* Optional: Media query for smaller screens */
+    @media (max-width: 600px) {
+      .calendar-button {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        padding: 2vw; /* Adjust padding for smaller screens */
+        border: 4px solid #000000;
+        width: 50vw; /* Adjust button width for smaller screens */
+      }
+    }
+</style>
+
+<div>
+    <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Hao+%26+Nat+Wedding&dates=20250830T150000Z/20250831T010000Z&details=Join+us+for+our+wedding+celebration&location=https://maps.app.goo.gl/CssZrimZydPTjeE2A" class="calendar-button">Add to My Calendar</a>
+</div>
